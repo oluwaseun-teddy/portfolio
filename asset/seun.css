@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	background: url('./img/bg.jpg');
 	background-repeat: no-repeat;
@@ -15,8 +19,8 @@ body{
 	background-color: #ffffffc9;
 	color: #99604d;
 	padding: 15px;
-	border-radius: 5px;
-	box-shadow: 2px 1px 2px #99604d;
+	border-radius: 3px;
+	box-shadow: 3px 2px 2px 2px #99604d;
 	box-sizing: border-box;
 	margin-bottom: 3%;
 }
@@ -31,4 +35,11 @@ body{
 
 .footer{
 	font-size: 13px;
+}
+
+
+@media screen and(max-width: 360px){
+	.column-2{
+		margin-top: 5%;
+	}
 }
